@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "target": "es5",
+    "paths": {
+      "@badeball/cypress-cucumber-preprocessor/*": ["./node_modules/@badeball/cypress-cucumber-preprocessor/dist/subpath-entrypoints/*"]
+    },
+    "esModuleInterop": true,
+    "lib": [
+      "es2015",
+      "es5",
+      "dom"
+    ],
+    "types": [
+      "cypress", "node"
+    ]
+  },
+  "include": [
+    "**/*.ts"
+  ]
+ }
